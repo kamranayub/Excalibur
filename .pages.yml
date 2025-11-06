@@ -1,3 +1,14 @@
+media:
+  - name: blog
+    label: Blog
+    input: site/static/media/blog
+    output: /media/blog
+    
+  - name: docs
+    label: Docs
+    input: site/static/media/docs
+    output: /media/docs
+    
 content:
   - name: "blog"
     label: "Blog Posts"
