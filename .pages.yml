@@ -4,6 +4,7 @@ content:
     type: collection
     path: site/blog
     format: yaml-frontmatter
+    subfolders: false
     fields:
       - { label: "Title", name: "title", type: "string" }
       - { label: "Publish Date", name: "date", type: "date" }
