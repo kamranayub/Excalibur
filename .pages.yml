@@ -2,7 +2,7 @@ content:
   - name: "blog"
     label: "Blog Posts"
     type: collection
-    path: blog
+    path: site/blog
     format: yaml-frontmatter
     fields:
       - { label: "Title", name: "title", type: "string" }
@@ -14,7 +14,7 @@ content:
   - name: "docs"
     label: "Documentation"
     type: collection
-    path: docs
+    path: site/docs
     format: yaml-frontmatter
     subfolders: true
     fields:
@@ -32,7 +32,7 @@ content:
   - name: "config"
     label: "Site Configuration"
     type: file
-    path: docusaurus.config.ts
+    path: site/docusaurus.config.ts
     fields:
       - { label: "Site Title", name: "title", type: "string" }
       - { label: "Site Tagline", name: "tagline", type: "string" }
